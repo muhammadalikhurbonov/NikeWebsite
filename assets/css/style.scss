@@ -1,0 +1,341 @@
+@font-face {
+  font-family: "Futura Bk BT";
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf),
+    url(/./futuraMediumBT/futuraMediumBT.eot),
+    url(/./futuraMediumBT/futuraMediumBT.woff);
+}
+@font-face {
+  font-family: "Futura Md BT";
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf),
+    url(/./futuraMediumBT/futuraMediumBT.eot),
+    url(/./futuraMediumBT/futuraMediumBT.woff);
+}
+@font-face {
+  font-family: "Futura LT";
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf),
+    url(/./futuraMediumBT/futuraMediumBT.eot),
+    url(/./futuraMediumBT/futuraMediumBT.woff);
+}
+@font-face {
+  font-family: "Futura LtCn BT";
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf),
+    url(/./futuraMediumBT/futuraMediumBT.eot),
+    url(/./futuraMediumBT/futuraMediumBT.woff);
+}
+@font-face {
+  font-family: "Futura XBlkCnIt BT";
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf),
+    url(/./futuraMediumBT/futuraMediumBT.eot),
+    url(/./futuraMediumBT/futuraMediumBT.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  body {
+    background-color: #000;
+    .container {
+      border: 2px solid red;
+      header {
+        border: inherit;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2% 2%;
+        nav {
+          ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 37px;
+            li {
+              cursor: pointer;
+              list-style-type: none;
+              a {
+                text-decoration: none;
+                font-family: "Futura Bk BT";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+                text-transform: uppercase;
+                color: #ffffff;
+                transition: all 0.4s;
+                position: relative;
+                &::before {
+                  position: absolute;
+                  content: "";
+                  width: 0;
+                  height: 2px;
+                  background-color: #fff;
+                  top: 120%;
+                  transition: all 0.4s;
+                }
+                &:hover {
+                  &::before {
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .header_icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 44px;
+          span {
+            cursor: pointer;
+            transition: all 0.4s;
+            svg {
+              path {
+                fill {
+                  transition: all 0.4s;
+                }
+              }
+            }
+            &:hover {
+              scale: 1.5;
+              svg {
+                path {
+                  fill: red;
+                }
+              }
+            }
+          }
+        }
+      }
+      main {
+        border: inherit;
+      }
+      footer {
+        border: inherit;
+        .footer_item {
+          border: inherit;
+          display: flex;
+          justify-content: space-between;
+          padding-left: 80px;
+          .footer_item_logo {
+            margin-top: 72px;
+            margin-bottom: 80px;
+            border: inherit;
+            h2 {
+              font-family: "Futura LT";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 48px;
+              line-height: 64px;
+              text-transform: capitalize;
+              color: #ffffff;
+            }
+            .footer_item_logo_button {
+              display: flex;
+              align-items: center;
+              position: relative;
+              margin-top: 32px;
+              input {
+                border: 1px solid #ffffff;
+                border-radius: 80px;
+                font-family: "Futura LT";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-transform: capitalize;
+                color: rgba(255, 255, 255, 0.5);
+                padding: 16px 80px;
+                background: #000000;
+              }
+              button {
+                top: 0;
+                right: 10%;
+                position: absolute;
+                background: #ffffff;
+                border: 1px solid #fff;
+                border-radius: 80px;
+                font-family: "Futura LT";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                text-transform: capitalize;
+                color: #000000;
+                padding: 16px 40px;
+                transition: all 0.4s;
+                cursor: pointer;
+                &:hover {
+                  background-color: #000;
+                  color: #fff;
+                }
+              }
+            }
+            .footer_item_logo_img {
+              width: 240px;
+              height: 125px;
+              margin-top: 88px;
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+          .footer_item_nav {
+            margin-top: 80px;
+            margin-bottom: 80px;
+            display: flex;
+            justify-content: center;
+            gap: 71px;
+            .footer_item_nav_child {
+              &:nth-of-type(3) {
+                h5 {
+                  font-family: "Futura XBlkCnIt BT";
+                  font-style: italic;
+                  font-weight: 400;
+                  font-size: 24px;
+                  line-height: 29px;
+                  color: #ffffff;
+                }
+                ul {
+                  margin-top: 24px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 16px;
+                  li {
+                    list-style-type: none;
+                    a {
+                      text-decoration: none;
+                      font-family: "Futura LtCn BT";
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 20px;
+                      line-height: 24px;
+                      color: #ffffff;
+                      position: relative;
+                      transition: all 0.4s;
+                      &::before {
+                        position: absolute;
+                        content: "";
+                        width: 0;
+                        height: 2px;
+                        background-color: #fff;
+                        top: 120%;
+                        transition: all 0.4s;
+                      }
+                      &:hover {
+                        &::before {
+                          width: 100%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              .footer_item_nav_child_row {
+                &:last-of-type {
+                  margin-top: 51px;
+                }
+                h5 {
+                  font-family: "Futura XBlkCnIt BT";
+                  font-style: italic;
+                  font-weight: 400;
+                  font-size: 24px;
+                  line-height: 29px;
+                  color: #ffffff;
+                }
+                ul {
+                  margin-top: 24px;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 16px;
+                  li {
+                    list-style-type: none;
+                    a {
+                      text-decoration: none;
+                      font-family: "Futura LtCn BT";
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 20px;
+                      line-height: 24px;
+                      color: #ffffff;
+                      position: relative;
+                      transition: all 0.4s;
+                      &::before {
+                        position: absolute;
+                        content: "";
+                        width: 0;
+                        height: 2px;
+                        background-color: #fff;
+                        top: 120%;
+                        transition: all 0.4s;
+                      }
+                      &:hover {
+                        &::before {
+                          width: 100%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer_reservetion {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 2% 80px;
+          .footer_reservetion_item {
+            &:first-of-type {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 9px;
+              p {
+                font-family: "Futura Bk BT";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                text-transform: capitalize;
+                color: #ffffff;
+              }
+            }
+            &:last-of-type {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 43px;
+              span {
+                cursor: pointer;
+                transition: all 0.4s;
+                svg {
+                  path {
+                    fill {
+                      transition: all 0.4s;
+                    }
+                  }
+                }
+                &:hover {
+                  scale: 1.5;
+                  svg {
+                    path {
+                      fill: red;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      @media screen and (min-width: 1440px) {
+        width: 1440px;
+        margin: auto;
+      }
+    }
+  }
+}
