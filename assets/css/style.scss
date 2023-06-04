@@ -123,6 +123,132 @@
       }
       main {
         border: inherit;
+        .section_essence {
+          position: relative;
+          margin-top: 183px;
+          h3 {
+            font-family: "Futura Md BT";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 100px;
+            text-align: center;
+            color: #ffffff;
+            span {
+              &:first-of-type {
+                img {
+                  transform: translateY(25px);
+                  width: 72px;
+                  height: 72px;
+                  background: linear-gradient(
+                      317.85deg,
+                      #000000 0%,
+                      rgba(187, 61, 61, 0.814375) 49.24%,
+                      rgba(186, 0, 0, 0.64) 95.49%
+                    ),
+                    url(mike-von-rj8ohjW9RBA-unsplash.jpg);
+                  background-blend-mode: exclusion, normal;
+                }
+              }
+              &:last-of-type {
+                img {
+                  transform: translateY(12px);
+                  width: 72px;
+                  height: 72px;
+                  background: linear-gradient(
+                      317.85deg,
+                      #000000 0%,
+                      rgba(187, 61, 61, 0.814375) 49.24%,
+                      rgba(186, 0, 0, 0.64) 95.49%
+                    ),
+                    url(mike-von-rj8ohjW9RBA-unsplash.jpg);
+                  background-blend-mode: exclusion, normal;
+                }
+              }
+            }
+          }
+          p {
+            font-family: "Futura Bk BT";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 48px;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 80px;
+          }
+          button {
+            margin-top: 80px;
+            border: 1px solid #ffffff;
+            border-radius: 36px;
+            padding: 16px 24px;
+            background-color: #000;
+            font-family: "Futura Bk BT";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            transition: all 0.4s;
+            margin: auto;
+            margin-top: 120px;
+            span {
+              svg {
+                path {
+                  fill {
+                    transition: all 0.4s;
+                  }
+                }
+              }
+            }
+            &:hover {
+              border: 1px solid red;
+              color: red;
+              span {
+                svg {
+                  path {
+                    fill: red;
+                  }
+                }
+              }
+            }
+          }
+          .section_essence_img {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 746px;
+            height: 377px;
+          }
+        }
+        .section_sellers {
+          margin-top: 231px;
+          h2 {
+            font-family: "Futura Md BT";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 64px;
+            text-align: center;
+            color: #ffffff;
+          }
+          .section_sellers_img {
+            margin-top: 107px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            img {
+              width: 416px;
+              height: 560px;
+            }
+          }
+        }
         .section_air {
           margin-top: 160px;
           .section_air_title {
@@ -151,7 +277,7 @@
                   &:first-of-type {
                     img {
                       width: 400px;
-                      height: 183px;
+                      height: 200px;
                     }
                     h6 {
                       font-family: "Futura LtCn BT";
@@ -168,7 +294,7 @@
                   &:last-of-type {
                     img {
                       width: 400px;
-                      height: 217px;
+                      height: 200px;
                     }
                     h6 {
                       font-family: "Futura LtCn BT";
@@ -212,7 +338,7 @@
                   &:last-of-type {
                     img {
                       width: 400px;
-                      height: 230px;
+                      height: 220px;
                     }
                     h6 {
                       font-family: "Futura LtCn BT";
@@ -274,9 +400,49 @@
               }
             }
           }
+          button {
+            border: 1px solid #ffffff;
+            border-radius: 36px;
+            padding: 18px 24px;
+            background-color: #000;
+            font-family: "Futura Bk BT";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            transition: all 0.4s;
+            margin: auto;
+            margin-top: 120px;
+            span {
+              svg {
+                path {
+                  fill {
+                    transition: all 0.4s;
+                  }
+                }
+              }
+            }
+            &:hover {
+              border: 1px solid red;
+              color: red;
+              span {
+                svg {
+                  path {
+                    fill: red;
+                  }
+                }
+              }
+            }
+          }
         }
         .section_modern {
-          margin-top: 222px;
+          margin-top: 159px;
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -424,7 +590,7 @@
                   img {
                     z-index: 2;
                     width: 240px;
-                    height: 145px;
+                    height: 170px;
                     margin-top: 16px;
                   }
                   span {
@@ -757,7 +923,7 @@
           border: inherit;
           display: flex;
           justify-content: space-between;
-          padding-left: 80px;
+          padding: 0 105px 0 80px;
           .footer_item_logo {
             margin-top: 72px;
             margin-bottom: 80px;

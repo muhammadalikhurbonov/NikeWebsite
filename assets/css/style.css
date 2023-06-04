@@ -98,6 +98,104 @@
 * body .container main {
   border: inherit;
 }
+* body .container main .section_essence {
+  position: relative;
+  margin-top: 183px;
+}
+* body .container main .section_essence h3 {
+  font-family: "Futura Md BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+* body .container main .section_essence h3 span:first-of-type img {
+  transform: translateY(25px);
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(317.85deg, #000000 0%, rgba(187, 61, 61, 0.814375) 49.24%, rgba(186, 0, 0, 0.64) 95.49%), url(mike-von-rj8ohjW9RBA-unsplash.jpg);
+  background-blend-mode: exclusion, normal;
+}
+* body .container main .section_essence h3 span:last-of-type img {
+  transform: translateY(12px);
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(317.85deg, #000000 0%, rgba(187, 61, 61, 0.814375) 49.24%, rgba(186, 0, 0, 0.64) 95.49%), url(mike-von-rj8ohjW9RBA-unsplash.jpg);
+  background-blend-mode: exclusion, normal;
+}
+* body .container main .section_essence p {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 80px;
+}
+* body .container main .section_essence button {
+  margin-top: 80px;
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+  padding: 16px 24px;
+  background-color: #000;
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin: auto;
+  margin-top: 120px;
+}
+* body .container main .section_essence button span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_essence button:hover {
+  border: 1px solid red;
+  color: red;
+}
+* body .container main .section_essence button:hover span svg path {
+  fill: red;
+}
+* body .container main .section_essence .section_essence_img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 746px;
+  height: 377px;
+}
+* body .container main .section_sellers {
+  margin-top: 231px;
+}
+* body .container main .section_sellers h2 {
+  font-family: "Futura Md BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  text-align: center;
+  color: #ffffff;
+}
+* body .container main .section_sellers .section_sellers_img {
+  margin-top: 107px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+* body .container main .section_sellers .section_sellers_img img {
+  width: 416px;
+  height: 560px;
+}
 * body .container main .section_air {
   margin-top: 160px;
 }
@@ -125,7 +223,7 @@
 }
 * body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:first-of-type img {
   width: 400px;
-  height: 183px;
+  height: 200px;
 }
 * body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:first-of-type h6 {
   font-family: "Futura LtCn BT";
@@ -140,7 +238,7 @@
 }
 * body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:last-of-type img {
   width: 400px;
-  height: 217px;
+  height: 200px;
 }
 * body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:last-of-type h6 {
   font-family: "Futura LtCn BT";
@@ -178,7 +276,7 @@
 }
 * body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(2) .section_air_item_child_row:last-of-type img {
   width: 400px;
-  height: 230px;
+  height: 220px;
 }
 * body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(2) .section_air_item_child_row:last-of-type h6 {
   font-family: "Futura LtCn BT";
@@ -229,8 +327,38 @@
   margin-top: 16px;
   text-align: center;
 }
+* body .container main .section_air button {
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+  padding: 18px 24px;
+  background-color: #000;
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin: auto;
+  margin-top: 120px;
+}
+* body .container main .section_air button span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_air button:hover {
+  border: 1px solid red;
+  color: red;
+}
+* body .container main .section_air button:hover span svg path {
+  fill: red;
+}
 * body .container main .section_modern {
-  margin-top: 222px;
+  margin-top: 159px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -362,7 +490,7 @@
 * body .container main .section_styles .section_styles_item .section_styles_item_child .section_styles_item_child_row:last-of-type img {
   z-index: 2;
   width: 240px;
-  height: 145px;
+  height: 170px;
   margin-top: 16px;
 }
 * body .container main .section_styles .section_styles_item .section_styles_item_child .section_styles_item_child_row:last-of-type span {
@@ -652,7 +780,7 @@
   border: inherit;
   display: flex;
   justify-content: space-between;
-  padding-left: 80px;
+  padding: 0 105px 0 80px;
 }
 * body .container footer .footer_item .footer_item_logo {
   margin-top: 72px;
