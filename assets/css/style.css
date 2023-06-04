@@ -1,22 +1,26 @@
 @font-face {
   font-family: "Futura Bk BT";
-  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff);
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff), url(/./futuraMediumBT/readme.txt);
 }
 @font-face {
   font-family: "Futura Md BT";
-  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff);
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff), url(/./futuraMediumBT/readme.txt);
 }
 @font-face {
   font-family: "Futura LT";
-  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff);
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff), url(/./futuraMediumBT/readme.txt);
 }
 @font-face {
   font-family: "Futura LtCn BT";
-  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff);
+  src: url(/./futura_ltcn_bt/freefontsdownload.txt), url(/./futura_ltcn_bt/FuturaLightCondensedBT.ttf), url(/./futura_ltcn_bt/FuturaLtCnBT-Italic.ttf), url(/./futura_ltcn_bt/FuturaLtCnBTItalic.ttf);
 }
 @font-face {
   font-family: "Futura XBlkCnIt BT";
-  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff);
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff), url(/./futuraMediumBT/readme.txt);
+}
+@font-face {
+  font-family: "Futura Hv BT";
+  src: url(/./futuraMediumBT/futuraMediumBT.ttf), url(/./futuraMediumBT/futuraMediumBT.eot), url(/./futuraMediumBT/futuraMediumBT.woff), url(/./futuraMediumBT/readme.txt);
 }
 * {
   margin: 0;
@@ -24,6 +28,7 @@
   box-sizing: border-box;
 }
 * body {
+  overflow-x: hidden;
   background-color: #000;
 }
 * body .container {
@@ -93,7 +98,554 @@
 * body .container main {
   border: inherit;
 }
+* body .container main .section_air {
+  margin-top: 160px;
+}
+* body .container main .section_air .section_air_title {
+  width: 479px;
+  height: 198px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+* body .container main .section_air .section_air_title img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) {
+  margin-top: 120px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 79px;
+  align-items: center;
+  gap: 47px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:first-of-type img {
+  width: 400px;
+  height: 183px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:first-of-type h6 {
+  font-family: "Futura LtCn BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+  text-align: center;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:last-of-type img {
+  width: 400px;
+  height: 217px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(1) .section_air_item_child_row:last-of-type h6 {
+  font-family: "Futura LtCn BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+  text-align: center;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(2) {
+  margin-top: 51px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 79px;
+  align-items: center;
+  gap: 47px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(2) .section_air_item_child_row:first-of-type img {
+  width: 400px;
+  height: 219px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(2) .section_air_item_child_row:first-of-type h6 {
+  font-family: "Futura LtCn BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+  text-align: center;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(2) .section_air_item_child_row:last-of-type img {
+  width: 400px;
+  height: 230px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(2) .section_air_item_child_row:last-of-type h6 {
+  font-family: "Futura LtCn BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+  text-align: center;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(3) {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 79px;
+  align-items: center;
+  gap: 47px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(3) .section_air_item_child_row:first-of-type img {
+  width: 400px;
+  height: 219px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(3) .section_air_item_child_row:first-of-type h6 {
+  font-family: "Futura LtCn BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+  text-align: center;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(3) .section_air_item_child_row:last-of-type img {
+  width: 400px;
+  height: 230px;
+}
+* body .container main .section_air .section_air_item .section_air_item_child:nth-of-type(3) .section_air_item_child_row:last-of-type h6 {
+  font-family: "Futura LtCn BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+  text-align: center;
+}
+* body .container main .section_modern {
+  margin-top: 222px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 145px 0 102px;
+}
+* body .container main .section_modern .section_modern_img {
+  background-image: url(/./assets/img/section_modern_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  mix-blend-mode: soft-light;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 50px;
+  width: 450px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body .container main .section_modern .section_modern_img img {
+  width: 320px;
+  height: 200px;
+}
+* body .container main .section_modern .section_modern_text h2 {
+  font-family: "Futura Md BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+}
+* body .container main .section_modern .section_modern_text p {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+* body .container main .section_modern .section_modern_text button {
+  margin-top: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+  padding: 16px 24px;
+  background-color: #000;
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+* body .container main .section_modern .section_modern_text button span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_modern .section_modern_text button:hover {
+  border: 1px solid red;
+  color: red;
+}
+* body .container main .section_modern .section_modern_text button:hover span svg path {
+  fill: red;
+}
+* body .container main .section_styles {
+  margin-top: 221px;
+}
+* body .container main .section_styles h2 {
+  margin-left: 76px;
+  font-family: "Futura Md BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: relative;
+}
+* body .container main .section_styles h2::before {
+  position: absolute;
+  content: url(/./assets/img/styles\ before.png);
+  top: 60%;
+  right: 54%;
+}
+* body .container main .section_styles h2 span {
+  color: #ba0000;
+}
+* body .container main .section_styles .section_styles_item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 144px;
+  gap: 80px;
+  margin-right: 40px;
+}
+* body .container main .section_styles .section_styles_item .section_styles_item_child .section_styles_item_child_row:first-of-type h5 {
+  font-family: "Futura XBlkCnIt BT";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+  z-index: 2;
+  position: relative;
+}
+* body .container main .section_styles .section_styles_item .section_styles_item_child .section_styles_item_child_row:last-of-type {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  position: relative;
+}
+* body .container main .section_styles .section_styles_item .section_styles_item_child .section_styles_item_child_row:last-of-type .section_styles_item_child_row_blur {
+  position: absolute;
+  background: conic-gradient(from 180deg at 50% 50%, #ff0000 0deg, rgba(255, 0, 0, 0) 360deg);
+  background-blend-mode: luminosity;
+  filter: blur(125px);
+  top: -20%;
+  right: 10%;
+  width: 250px;
+  height: 200px;
+}
+* body .container main .section_styles .section_styles_item .section_styles_item_child .section_styles_item_child_row:last-of-type img {
+  z-index: 2;
+  width: 240px;
+  height: 145px;
+  margin-top: 16px;
+}
+* body .container main .section_styles .section_styles_item .section_styles_item_child .section_styles_item_child_row:last-of-type span {
+  font-family: "Futura XBlkCnIt BT";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  text-align: right;
+  color: #ba0000;
+  margin-top: 22px;
+}
+* body .container main .section_logotips {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  padding: 0 20px;
+}
+* body .container main .section_logotips img {
+  width: 100px;
+  height: 67px;
+}
+* body .container main .section_bestthings {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+}
+* body .container main .section_bestthings .section_bestthings_text h2 {
+  font-family: "Futura Md BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+}
+* body .container main .section_bestthings .section_bestthings_text p {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-top: 32px;
+}
+* body .container main .section_bestthings .section_bestthings_text button {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: #000;
+  cursor: pointer;
+  transition: all 0.4s;
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+  padding: 12px 24px;
+  margin-top: 40px;
+}
+* body .container main .section_bestthings .section_bestthings_text button span svg path fil {
+  transition: all 0.4s;
+}
+* body .container main .section_bestthings .section_bestthings_text button:hover {
+  border: 1px solid red;
+  color: red;
+}
+* body .container main .section_bestthings .section_bestthings_text button:hover span svg path {
+  fill: red;
+}
+* body .container main .section_bestthings .section_bestthings_img {
+  width: 650px;
+  height: 736px;
+}
+* body .container main .section_bestthings .section_bestthings_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+* body .container main .section_visionary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  margin-top: 180px;
+}
+* body .container main .section_visionary .section_visionary_img {
+  width: 416px;
+  height: 416px;
+}
+* body .container main .section_visionary .section_visionary_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+* body .container main .section_visionary .section_visionary_text h3 {
+  font-family: "Futura Md BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+* body .container main .section_visionary .section_visionary_text h3 span {
+  color: #ba0000;
+}
+* body .container main .section_visionary .section_visionary_text p {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 32px;
+}
+* body .container main .section_visionary .section_visionary_text h6 {
+  margin-top: 24px;
+  font-family: "Futura Hv BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+* body .container main .section_visionary .section_visionary_text h6:nth-of-type(1) {
+  margin-top: 32px;
+}
+* body .container main .section_visionary .section_visionary_text h6 span {
+  font-weight: bold;
+}
+* body .container main .section_visionary .section_visionary_text button {
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  color: #ffffff;
+  background-color: #000;
+  transition: all 0.4s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 4px;
+  margin-top: 32px;
+}
+* body .container main .section_visionary .section_visionary_text button span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_visionary .section_visionary_text button:hover {
+  border: 1px solid #ba0000;
+  color: #ba0000;
+}
+* body .container main .section_visionary .section_visionary_text button:hover span svg path {
+  fill: #ba0000;
+}
+* body .container main .section_NikeClub {
+  margin-top: 287px;
+  position: relative;
+}
+* body .container main .section_NikeClub .section_NikeClub_item {
+  margin: 0 120px;
+  padding: 64px 40px;
+  mix-blend-mode: normal;
+  border: 1px solid #ffffff;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+* body .container main .section_NikeClub .section_NikeClub_item .section_NikeClub_item_child:first-of-type h3 {
+  font-family: "Futura Md BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+* body .container main .section_NikeClub .section_NikeClub_item .section_NikeClub_item_child:first-of-type p {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+}
+* body .container main .section_NikeClub .section_NikeClub_item .section_NikeClub_item_child:first-of-type button {
+  margin-top: 32px;
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background-color: #000;
+  border-radius: 36px;
+  padding: 12px 24px;
+  gap: 4px;
+}
+* body .container main .section_NikeClub .section_NikeClub_item .section_NikeClub_item_child:first-of-type button span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_NikeClub .section_NikeClub_item .section_NikeClub_item_child:first-of-type button:hover {
+  border: 1px solid red;
+  color: red;
+}
+* body .container main .section_NikeClub .section_NikeClub_item .section_NikeClub_item_child:first-of-type button:hover span svg path {
+  fill: red;
+}
+* body .container main .section_NikeClub .section_NikeClub_sneaker {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  height: 376px;
+  width: 550px;
+}
+* body .container main .section_NikeClub .section_NikeClub_sneaker img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+* body .container main .section_comfortable {
+  border: inherit;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  padding: 57px 0px 57px 80px;
+  margin-top: 298px;
+  flex-wrap: wrap;
+}
+* body .container main .section_comfortable .section_comfortable_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+* body .container main .section_comfortable .section_comfortable_item .section_comfortable_item_child:last-of-type h5 {
+  font-family: "Futura Hv BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+* body .container main .section_comfortable .section_comfortable_item .section_comfortable_item_child:last-of-type h6 {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 8px;
+}
 * body .container footer {
+  width: 100%;
   border: inherit;
 }
 * body .container footer .footer_item {
