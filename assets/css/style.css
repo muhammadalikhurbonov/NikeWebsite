@@ -31,28 +31,38 @@
   overflow-x: hidden;
   background-color: #000;
 }
-* body .container {
-  border: 2px solid red;
+* body .container main {
+  border: inherit;
 }
-* body .container header {
+* body .container main .section_main {
+  background: url("/./assets/img/section_main background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  width: 100%;
+  position: relative;
+}
+* body .container main .section_main .header {
   border: inherit;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2% 2%;
+  position: relative;
+  z-index: 999;
 }
-* body .container header nav ul {
+* body .container main .section_main .header nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 37px;
 }
-* body .container header nav ul li {
+* body .container main .section_main .header nav ul li {
   cursor: pointer;
   list-style-type: none;
 }
-* body .container header nav ul li a {
+* body .container main .section_main .header nav ul li a {
   text-decoration: none;
   font-family: "Futura Bk BT";
   font-style: normal;
@@ -64,7 +74,7 @@
   transition: all 0.4s;
   position: relative;
 }
-* body .container header nav ul li a::before {
+* body .container main .section_main .header nav ul li a::before {
   position: absolute;
   content: "";
   width: 0;
@@ -73,34 +83,268 @@
   top: 120%;
   transition: all 0.4s;
 }
-* body .container header nav ul li a:hover::before {
+* body .container main .section_main .header nav ul li a:hover::before {
   width: 100%;
 }
-* body .container header .header_icon {
+* body .container main .section_main .header .header_icon {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 44px;
 }
-* body .container header .header_icon span {
+* body .container main .section_main .header .header_icon span {
   cursor: pointer;
   transition: all 0.4s;
 }
-* body .container header .header_icon span svg path fill {
+* body .container main .section_main .header .header_icon span svg path fill {
   transition: all 0.4s;
 }
-* body .container header .header_icon span:hover {
+* body .container main .section_main .header .header_icon span:hover {
   scale: 1.5;
 }
-* body .container header .header_icon span:hover svg path {
+* body .container main .section_main .header .header_icon span:hover svg path {
   fill: red;
 }
-* body .container main {
-  border: inherit;
+* body .container main .section_main .header_function {
+  position: fixed;
+  transition: all 1s;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  top: 0;
+  left: 0;
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+* body .container main .section_main .section_main_item {
+  z-index: 99;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_row img:nth-of-type(1) {
+  width: 600px;
+  height: 408px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_row img:nth-of-type(2) {
+  position: absolute;
+  top: 32%;
+  left: 30%;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col {
+  margin-left: 90px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col h1 {
+  font-family: "Futura Md BT";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0.16em;
+  color: #ffffff;
+  z-index: 10;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col .section_main_item_child_col_row {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  gap: 164px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col .section_main_item_child_col_row h6 {
+  font-family: "Futura Hv BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col .section_main_item_child_col_row .size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col .section_main_item_child_col_row .size h5 {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col .section_main_item_child_col_row .size h5 h6 {
+  font-family: "Futura Hv BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col button {
+  margin-top: 80px;
+  border: 1px solid #ffffff;
+  border-radius: 36px;
+  padding: 9px 19px;
+  background-color: #000;
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-top: 32px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col button span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col button:hover {
+  border: 1px solid red;
+  color: red;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:first-of-type .section_main_item_child_col button:hover span svg path {
+  fill: red;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 87px;
+  gap: 80px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Previous {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.4s;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Previous:hover h5 {
+  color: red;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Previous:hover span svg path {
+  fill: red;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Previous h5 {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  transition: all 0.4s;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Previous span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Next {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.4s;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Next:hover h5 {
+  color: red;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Next:hover span svg path {
+  fill: red;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Next h5 {
+  font-family: "Futura Bk BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_buttons .Next span svg path fill {
+  transition: all 0.4s;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products .section_main_item_child_products_item {
+  width: 320px;
+  height: 195px;
+  border: 2px solid #ffffff;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products .section_main_item_child_products_item:nth-of-type(1) img {
+  width: 229px;
+  height: 134px;
+  transform: translateY(-40px);
+  margin-left: 15px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products .section_main_item_child_products_item:nth-of-type(2) img {
+  width: 229px;
+  height: 102px;
+  margin-left: 21px;
+  transform: translateY(-15px);
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products .section_main_item_child_products_item:nth-of-type(2) h5 {
+  margin-top: 30px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products .section_main_item_child_products_item:nth-of-type(3) img {
+  width: 229px;
+  height: 117px;
+  margin-left: 35px;
+  transform: translateY(-30px);
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products .section_main_item_child_products_item:nth-of-type(3) h5 {
+  margin-top: 15px;
+}
+* body .container main .section_main .section_main_item .section_main_item_child:last-of-type .section_main_item_child_products .section_main_item_child_products_item h5 {
+  font-family: "Futura LtCn BT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 32px;
+}
+* body .container main .section_main .section_main_labels {
+  width: 100%;
+  position: absolute;
+  top: 94%;
+}
+* body .container main .section_main .section_main_labels img {
+  width: 100%;
 }
 * body .container main .section_essence {
   position: relative;
-  margin-top: 183px;
+  margin-top: 213px;
 }
 * body .container main .section_essence h3 {
   font-family: "Futura Md BT";
@@ -583,7 +827,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 80px;
-  margin-top: 180px;
+  margin-top: 100px;
 }
 * body .container main .section_visionary .section_visionary_img {
   width: 416px;
